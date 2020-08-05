@@ -15,7 +15,7 @@ public class PageObjectModel {
 	public static final By budget=By.cssSelector("div.PillDropdown:nth-child(3) > button:nth-child(1) > i:nth-child(2)");
 	public static final By minprice=By.cssSelector("#price_box_0");
 	public static final By maxprice=By.cssSelector("#price_box_1");
-	public static final By enter=By.cssSelector(".Bubble");
+	public static final By enter=By.cssSelector(".PriceFilter-searchbox");
 	public static final By more=By.xpath("//span[text()='More']");
 	public static final By propertytype=By.xpath("//span[text()='Hotel']");
 	public static final By done=By.xpath("//span[text()='Done']");
