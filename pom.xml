@@ -35,7 +35,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						    <suiteXmlFile>testng.xml</suiteXmlFile> 
-						    <suiteXmlFile>invalidtestng.xml</suiteXmlFile> 				     
+						   <!-- <suiteXmlFile>invalidtestng.xml</suiteXmlFile> -->				     
 					</suiteXmlFiles>
 					<argLine>
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
