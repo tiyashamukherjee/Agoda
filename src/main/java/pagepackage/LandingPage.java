@@ -62,7 +62,7 @@ public class LandingPage extends Base {
 			driver.findElement(PageObjectModel.family).click();
 			for(int i=0;i<=8;i++) {
 			driver.findElement(PageObjectModel.plus).click();
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			}
 			String number=driver.findElement(PageObjectModel.roomnum).getText();
 			return number;
