@@ -1,0 +1,26 @@
+# Created on 2020-08-04T22:12:00.615
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created on 2020-08-04T22:12:01.725
+Unexpected IOException with stream: 08-04-2020 22:12:01 InvalidTest.java INFO  [main] test.TestInformation 40 - ***********INVOKING OF THE DESIRED DRIVER*************
+
+
+# Created on 2020-08-04T22:12:08.760
+Unexpected IOException with stream: Aug 04, 2020 10:12:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created on 2020-08-04T22:12:09.160
+Unexpected IOException: 5,1,test.InvalidTest,Test0(test.InvalidTest),test.InvalidTest,null,null
+
+
+# Created on 2020-08-04T22:12:09.165
+Unexpected IOException with stream: 08-04-2020 22:12:09 InvalidTest.java INFO  [main] test.TestInformation 50 - ***************OPENING OF THE BROWSER****************
+
+

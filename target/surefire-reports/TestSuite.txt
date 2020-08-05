@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 291.291 s <<< FAILURE! - in TestSuite
+roomNumber(test.InvalidTest)  Time elapsed: 12.415 s  <<< FAILURE!
+java.lang.AssertionError: Cannot select more than 9 rooms expected [true] but found [false]
+	at test.InvalidTest.roomNumber(InvalidTest.java:97)
+
+searchClick(test.InvalidTest)  Time elapsed: 32.395 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-C64J8NP', ip: '192.168.29.248', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ARUP\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50343}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 94a0bb61ef2a4e19ff2e20f59a51e7bb
+	at test.InvalidTest.searchClick(InvalidTest.java:106)
+

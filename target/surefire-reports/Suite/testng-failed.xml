@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <parameter name="gridbrowser" value="Firefox"/>
+    <groups>
+      <run>
+        <include name="Smoke Test"/>
+        <include name="Regression Test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.TestInformation">
+        <methods>
+          <include name="smoke2"/>
+          <include name="beforeTest"/>
+          <include name="flushAndEndTestMethod"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.TestInformation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

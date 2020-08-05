@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="18" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="159091" started-at="2020-08-05T12:24:12Z" finished-at="2020-08-05T12:26:51Z">
+    <groups>
+      <group name="Regression Test">
+        <method signature="TestInformation.Screenshots()[pri:7, instance:test.TestInformation@c6e0f32]" name="Screenshots" class="test.TestInformation"/>
+        <method signature="TestInformation.Test0()[pri:0, instance:test.TestInformation@c6e0f32]" name="Test0" class="test.TestInformation"/>
+        <method signature="TestInformation.Test1()[pri:1, instance:test.TestInformation@c6e0f32]" name="Test1" class="test.TestInformation"/>
+        <method signature="TestInformation.Test2()[pri:2, instance:test.TestInformation@c6e0f32]" name="Test2" class="test.TestInformation"/>
+        <method signature="TestInformation.Test3()[pri:3, instance:test.TestInformation@c6e0f32]" name="Test3" class="test.TestInformation"/>
+        <method signature="TestInformation.Test4()[pri:4, instance:test.TestInformation@c6e0f32]" name="Test4" class="test.TestInformation"/>
+        <method signature="TestInformation.Test5()[pri:5, instance:test.TestInformation@c6e0f32]" name="Test5" class="test.TestInformation"/>
+        <method signature="TestInformation.Test6()[pri:6, instance:test.TestInformation@c6e0f32]" name="Test6" class="test.TestInformation"/>
+      </group> <!-- Regression Test -->
+      <group name="Smoke Test">
+        <method signature="TestInformation.Test0()[pri:0, instance:test.TestInformation@c6e0f32]" name="Test0" class="test.TestInformation"/>
+        <method signature="TestInformation.smoke1()[pri:1, instance:test.TestInformation@c6e0f32]" name="smoke1" class="test.TestInformation"/>
+        <method signature="TestInformation.smoke2()[pri:2, instance:test.TestInformation@c6e0f32]" name="smoke2" class="test.TestInformation"/>
+        <method signature="TestInformation.smoke3()[pri:3, instance:test.TestInformation@c6e0f32]" name="smoke3" class="test.TestInformation"/>
+        <method signature="TestInformation.smoke4()[pri:4, instance:test.TestInformation@c6e0f32]" name="smoke4" class="test.TestInformation"/>
+      </group> <!-- Smoke Test -->
+    </groups>
+    <test name=" Valid Test" duration-ms="159091" started-at="2020-08-05T12:24:12Z" finished-at="2020-08-05T12:26:51Z">
+      <class name="test.TestInformation">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:test.TestInformation@c6e0f32]" name="beforeTest" is-config="true" duration-ms="14567" started-at="2020-08-05T12:24:12Z" finished-at="2020-08-05T12:24:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Test0()[pri:0, instance:test.TestInformation@c6e0f32]" name="Test0" duration-ms="21808" started-at="2020-08-05T12:24:27Z" description="Opening of the browser" finished-at="2020-08-05T12:24:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test0 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestInformation@c6e0f32]" name="flushAndEndTestMethod" is-config="true" duration-ms="4" started-at="2020-08-05T12:24:49Z" finished-at="2020-08-05T12:24:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test0 status=SUCCESS method=TestInformation.Test0()[pri:0, instance:test.TestInformation@c6e0f32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test1()[pri:1, instance:test.TestInformation@c6e0f32]" name="Test1" duration-ms="11989" started-at="2020-08-05T12:24:49Z" description="Selection of location" finished-at="2020-08-05T12:25:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestInformation@c6e0f32]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-05T12:25:01Z" finished-at="2020-08-05T12:25:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1 status=SUCCESS method=TestInformation.Test1()[pri:1, instance:test.TestInformation@c6e0f32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="smoke1()[pri:1, instance:test.TestInformation@c6e0f32]" name="smoke1" duration-ms="849" started-at="2020-08-05T12:25:01Z" finished-at="2020-08-05T12:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke1 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestInformation@c6e0f32]" name="flushAndEndTestMethod" is-config="true" duration-ms="0" started-at="2020-08-05T12:25:02Z" finished-at="2020-08-05T12:25:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smoke1 status=SUCCESS method=TestInformation.smoke1()[pri:1, instance:test.TestInformation@c6e0f32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test2()[pri:2, instance:test.TestInformation@c6e0f32]" name="Test2" duration-ms="14068" started-at="2020-08-05T12:25:02Z" description="Selection of dates for the stay" finished-at="2020-08-05T12:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestInformation@c6e0f32]" name="flushAndEndTestMethod" is-config="true" duration-ms="2" started-at="2020-08-05T12:25:16Z" finished-at="2020-08-05T12:25:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test2 status=SUCCESS method=TestInformation.Test2()[pri:2, instance:test.TestInformation@c6e0f32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="smoke2()[pri:2, instance:test.TestInformation@c6e0f32]" name="smoke2" duration-ms="47496" started-at="2020-08-05T12:25:16Z" finished-at="2020-08-05T12:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke2 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestInformation@c6e0f32]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-05T12:26:04Z" finished-at="2020-08-05T12:26:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smoke2 status=SUCCESS method=TestInformation.smoke2()[pri:2, instance:test.TestInformation@c6e0f32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test3()[pri:3, instance:test.TestInformation@c6e0f32]" name="Test3" duration-ms="15533" started-at="2020-08-05T12:26:04Z" description="Selection of min price" finished-at="2020-08-05T12:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestInformation@c6e0f32]" name="flushAndEndTestMethod" is-config="true" duration-ms="0" started-at="2020-08-05T12:26:19Z" finished-at="2020-08-05T12:26:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test3 status=SUCCESS method=TestInformation.Test3()[pri:3, instance:test.TestInformation@c6e0f32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="smoke3()[pri:3, instance:test.TestInformation@c6e0f32]" name="smoke3" duration-ms="289" started-at="2020-08-05T12:26:19Z" finished-at="2020-08-05T12:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke3 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestInformation@c6e0f32]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-05T12:26:19Z" finished-at="2020-08-05T12:26:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smoke3 status=SUCCESS method=TestInformation.smoke3()[pri:3, instance:test.TestInformation@c6e0f32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test4()[pri:4, instance:test.TestInformation@c6e0f32]" name="Test4" duration-ms="7606" started-at="2020-08-05T12:26:19Z" description="Selection of max price" finished-at="2020-08-05T12:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestInformation@c6e0f32]" name="flushAndEndTestMethod" is-config="true" duration-ms="4" started-at="2020-08-05T12:26:27Z" finished-at="2020-08-05T12:26:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test4 status=SUCCESS method=TestInformation.Test4()[pri:4, instance:test.TestInformation@c6e0f32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="smoke4()[pri:4, instance:test.TestInformation@c6e0f32]" name="smoke4" duration-ms="241" started-at="2020-08-05T12:26:27Z" finished-at="2020-08-05T12:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke4 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestInformation@c6e0f32]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-05T12:26:27Z" finished-at="2020-08-05T12:26:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=smoke4 status=SUCCESS method=TestInformation.smoke4()[pri:4, instance:test.TestInformation@c6e0f32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test5()[pri:5, instance:test.TestInformation@c6e0f32]" name="Test5" duration-ms="9677" started-at="2020-08-05T12:26:27Z" description="Selection of type of accomodation" finished-at="2020-08-05T12:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestInformation@c6e0f32]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-05T12:26:37Z" finished-at="2020-08-05T12:26:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test5 status=SUCCESS method=TestInformation.Test5()[pri:5, instance:test.TestInformation@c6e0f32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Test6()[pri:6, instance:test.TestInformation@c6e0f32]" name="Test6" duration-ms="1834" started-at="2020-08-05T12:26:37Z" description="To get the total number of hotels" finished-at="2020-08-05T12:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestInformation@c6e0f32]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-05T12:26:39Z" finished-at="2020-08-05T12:26:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test6 status=SUCCESS method=TestInformation.Test6()[pri:6, instance:test.TestInformation@c6e0f32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="Screenshots()[pri:7, instance:test.TestInformation@c6e0f32]" name="Screenshots" duration-ms="4245" started-at="2020-08-05T12:26:39Z" description="Capturing Screenshots" finished-at="2020-08-05T12:26:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshots -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.TestInformation@c6e0f32]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-05T12:26:43Z" finished-at="2020-08-05T12:26:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Screenshots status=SUCCESS method=TestInformation.Screenshots()[pri:7, instance:test.TestInformation@c6e0f32] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.TestInformation@c6e0f32]" name="close" is-config="true" duration-ms="7948" started-at="2020-08-05T12:26:43Z" finished-at="2020-08-05T12:26:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.TestInformation -->
+    </test> <!--  Valid Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="122353" started-at="2020-08-05T12:26:51Z" finished-at="2020-08-05T12:28:53Z">
+    <groups>
+    </groups>
+    <test name="Invalid Test" duration-ms="122353" started-at="2020-08-05T12:26:51Z" finished-at="2020-08-05T12:28:53Z">
+      <class name="test.InvalidTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:test.InvalidTest@1cc9cfb2]" name="beforeTest" is-config="true" duration-ms="7732" started-at="2020-08-05T12:26:51Z" finished-at="2020-08-05T12:26:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Test0()[pri:0, instance:test.InvalidTest@1cc9cfb2]" name="Test0" duration-ms="22334" started-at="2020-08-05T12:26:59Z" description="Opening of the browser" finished-at="2020-08-05T12:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test0 -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.InvalidTest@1cc9cfb2]" name="flushAndEndTestMethod" is-config="true" duration-ms="0" started-at="2020-08-05T12:27:21Z" finished-at="2020-08-05T12:27:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test0 status=SUCCESS method=InvalidTest.Test0()[pri:0, instance:test.InvalidTest@1cc9cfb2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="invalidLoc()[pri:1, instance:test.InvalidTest@1cc9cfb2]" name="invalidLoc" duration-ms="4959" started-at="2020-08-05T12:27:21Z" description="Invalid Location" finished-at="2020-08-05T12:27:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoc -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.InvalidTest@1cc9cfb2]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-05T12:27:26Z" finished-at="2020-08-05T12:27:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoc status=SUCCESS method=InvalidTest.invalidLoc()[pri:1, instance:test.InvalidTest@1cc9cfb2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="stay()[pri:2, instance:test.InvalidTest@1cc9cfb2]" name="stay" duration-ms="1411" started-at="2020-08-05T12:27:26Z" description="Selection of dates for the stay" finished-at="2020-08-05T12:27:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stay -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.InvalidTest@1cc9cfb2]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-05T12:27:28Z" finished-at="2020-08-05T12:27:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=stay status=SUCCESS method=InvalidTest.stay()[pri:2, instance:test.InvalidTest@1cc9cfb2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="FAIL" signature="roomNumber()[pri:3, instance:test.InvalidTest@1cc9cfb2]" name="roomNumber" duration-ms="12386" started-at="2020-08-05T12:27:28Z" description="Number of rooms selected" finished-at="2020-08-05T12:27:40Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Cannot select more than 9 rooms expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Cannot select more than 9 rooms expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at test.InvalidTest.roomNumber(InvalidTest.java:97)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roomNumber -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.InvalidTest@1cc9cfb2]" name="flushAndEndTestMethod" is-config="true" duration-ms="849" started-at="2020-08-05T12:27:40Z" finished-at="2020-08-05T12:27:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=roomNumber status=FAILURE method=InvalidTest.roomNumber()[pri:3, instance:test.InvalidTest@1cc9cfb2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="FAIL" signature="searchClick()[pri:4, instance:test.InvalidTest@1cc9cfb2]" name="searchClick" duration-ms="32385" started-at="2020-08-05T12:27:41Z" description="Search button clicked" finished-at="2020-08-05T12:28:13Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-C64J8NP', ip: '192.168.29.248', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ARUP\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50343}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 94a0bb61ef2a4e19ff2e20f59a51e7bb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=84.0.4147.105)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-C64J8NP', ip: '192.168.29.248', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\ARUP\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50343}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 94a0bb61ef2a4e19ff2e20f59a51e7bb
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at pagepackage.LandingPage.search(LandingPage.java:70)
+at pagepackage.HotelListPage.searchButton(HotelListPage.java:49)
+at test.InvalidTest.searchClick(InvalidTest.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchClick -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.InvalidTest@1cc9cfb2]" name="flushAndEndTestMethod" is-config="true" duration-ms="4552" started-at="2020-08-05T12:28:13Z" finished-at="2020-08-05T12:28:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchClick status=FAILURE method=InvalidTest.searchClick()[pri:4, instance:test.InvalidTest@1cc9cfb2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="invalidMinPrice()[pri:5, instance:test.InvalidTest@1cc9cfb2]" name="invalidMinPrice" duration-ms="30106" started-at="2020-08-05T12:28:18Z" description="Invalid Minimum price" finished-at="2020-08-05T12:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidMinPrice -->
+        <test-method status="PASS" signature="flushAndEndTestMethod(org.testng.ITestResult)[pri:0, instance:test.InvalidTest@1cc9cfb2]" name="flushAndEndTestMethod" is-config="true" duration-ms="1" started-at="2020-08-05T12:28:48Z" finished-at="2020-08-05T12:28:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidMinPrice status=SUCCESS method=InvalidTest.invalidMinPrice()[pri:5, instance:test.InvalidTest@1cc9cfb2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushAndEndTestMethod -->
+        <test-method status="PASS" signature="close()[pri:0, instance:test.InvalidTest@1cc9cfb2]" name="close" is-config="true" duration-ms="5550" started-at="2020-08-05T12:28:48Z" finished-at="2020-08-05T12:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- test.InvalidTest -->
+    </test> <!-- Invalid Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
