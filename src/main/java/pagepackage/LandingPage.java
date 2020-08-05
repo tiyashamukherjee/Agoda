@@ -69,8 +69,8 @@ public class LandingPage extends Base {
 		}
 	 public void search() throws InterruptedException {
 		driver.findElement(PageObjectModel.search).click();
-		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		Thread.sleep(5000);
 	}
 }
