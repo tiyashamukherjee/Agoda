@@ -74,7 +74,8 @@ public class HotelListPage extends LandingPage{
 	driver.findElement(PageObjectModel.maxprice).sendKeys(Keys.CONTROL,"a", Keys.CLEAR);
 	driver.findElement(PageObjectModel.maxprice).sendKeys(maxprice);
 	Thread.sleep(1000);
-	driver.findElement(PageObjectModel.maxprice).sendKeys(Keys.ENTER);
+	//driver.findElement(PageObjectModel.maxprice).sendKeys(Keys.ENTER);
+	     driver.findElement(PageObjectModel.enter).click();
 		}
 
 	 
